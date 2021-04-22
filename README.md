@@ -17,11 +17,11 @@
 ##### 	Mirasımız sayfası:
 -	Şehre ait kültürel miras niteliğindeki önemli bir eser ya da takımımız linkli bir sayfada şehrin takım (futbol, basketbol vb. branş fark etmez) html elemanları kullanılarak tanıtılmalıdır.
 ##### 	Login sayfası:
-- Kullanıcıdan user name (kullanıcı şifresi) ve password (kullanıcı şifresi) istenmeli.
-- Bir php sayfasına post edilip burada kullanıcı bilgileri gönderilen sayfada kontrol edilmelidir.
-         - Eğer kontrol işlemi başarılı ise post edilen sayfada Hoşgeldiniz “Kullanıcı adı” mesajı verilmeli.
-         - Başarısız ise, kullanıcı login sayfasına geri yönlendirilmeli.
-         - Kullanıcı adının mail (e-posta) olup olmadığı, adı ve şifrenin boş olup olmadığını kontrol edilmeli. 
+-        Kullanıcıdan user name (kullanıcı şifresi) ve password (kullanıcı şifresi) istenmeli.
+-        Bir php sayfasına post edilip burada kullanıcı bilgileri gönderilen sayfada kontrol edilmelidir.
+         -        Eğer kontrol işlemi başarılı ise post edilen sayfada Hoşgeldiniz “Kullanıcı adı” mesajı verilmeli.
+         -        Başarısız ise, kullanıcı login sayfasına geri yönlendirilmeli.
+         -        Kullanıcı adının mail (e-posta) olup olmadığı, adı ve şifrenin boş olup olmadığını kontrol edilmeli. 
 #####    İletişim sayfası:
 -	Form elemanları kullanılmalı.
 -	Gönderilen form bilgileri başka bir sayfada görüntülenmelidir.
