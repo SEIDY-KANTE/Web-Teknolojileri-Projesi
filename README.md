@@ -26,7 +26,7 @@
 -	Form elemanları kullanılmalı.
 -	Gönderilen form bilgileri başka bir sayfada görüntülenmelidir.
 -	Gerekli kontrol işlemleri javascript kullanılarak denetlenmelidir.
-##### Projenin Süreci
+### Projenin Süreci
 Bu projeyi tamamlamak için 5 aşama ayrılmayı düşünüyorum.
     1.	Aşama: HTML ile gerekli bilgileri yazılması,
     2.	Aşama: CSS ile stil olarak tasarım yapılması,
