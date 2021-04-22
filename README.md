@@ -2,7 +2,7 @@
 ###    Projenin Amacı
 - Bireysel olarak kendimi ve memleketimi tanıtan kişisel bir web sitesi uygulaması geliştirmektir.
 ###   Projenin İçeriği
-	Ana sayfası:
+##### 	Ana sayfası:
 -	Bir menü olarak sayılır, tüm sayfaları barındırandır.
 -	Giriş sayfasıdır.
 ##### 	Hakkımda sayfası:
