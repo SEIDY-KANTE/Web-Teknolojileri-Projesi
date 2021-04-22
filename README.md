@@ -19,17 +19,17 @@
 ##### 	Login sayfası:
 -	Kullanıcıdan user name (kullanıcı şifresi) ve password (kullanıcı şifresi) istenmeli.
 -	Bir php sayfasına post edilip burada kullanıcı bilgileri gönderilen sayfada kontrol edilmelidir.
-    *	Eğer kontrol işlemi başarılı ise post edilen sayfada Hoşgeldiniz “Kullanıcı adı” mesajı verilmeli.
-	  * Başarısız ise, kullanıcı login sayfasına geri yönlendirilmeli.
-    *	Kullanıcı adının mail (e-posta) olup olmadığı, adı ve şifrenin boş olup olmadığını kontrol edilmeli. 
-    *	İletişim sayfası:
+   --	Eğer kontrol işlemi başarılı ise post edilen sayfada Hoşgeldiniz “Kullanıcı adı” mesajı verilmeli.
+   --	Başarısız ise, kullanıcı login sayfasına geri yönlendirilmeli.
+   --	Kullanıcı adının mail (e-posta) olup olmadığı, adı ve şifrenin boş olup olmadığını kontrol edilmeli. 
+   --	İletişim sayfası:
 -	Form elemanları kullanılmalı.
 -	Gönderilen form bilgileri başka bir sayfada görüntülenmelidir.
 -	Gerekli kontrol işlemleri javascript kullanılarak denetlenmelidir.
 ### Projenin Süreci
 Bu projeyi tamamlamak için 5 aşama ayrılmayı düşünüyorum.
-    1.	Aşama: HTML ile gerekli bilgileri yazılması,
-    2.	Aşama: CSS ile stil olarak tasarım yapılması,
-    3.	Aşama: BOOTSTRAP ile responsive bir yapı kullanılması,
-    4.	Aşama: JAVASCRİPT ve PHP ile gerekli kontrol edilmesi,
+    - 1.	Aşama: HTML ile gerekli bilgileri yazılması,
+    - 2.	Aşama: CSS ile stil olarak tasarım yapılması,
+    - 3.	Aşama: BOOTSTRAP ile responsive bir yapı kullanılması,
+    - 4.	Aşama: JAVASCRİPT ve PHP ile gerekli kontrol edilmesi,
     5.	(Son) Aşama: Bakım aşaması.
