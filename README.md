@@ -1,4 +1,4 @@
-# web-teknolojileri-projesi
+# Web Teknolojileri Projesi
 ###    Projenin Amacı
 - Bireysel olarak kendimi ve memleketimi tanıtan kişisel bir web sitesi uygulaması geliştirmektir.
 ###   Projenin İçeriği
