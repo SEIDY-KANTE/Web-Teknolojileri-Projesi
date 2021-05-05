@@ -45,20 +45,6 @@ body{
     
 }
 
-
-/* .navbar{
-   position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    background: url("../../stiller/img/nav-image.png") no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    height: 8.3%;
-} */
-
-
 .header-nightsky .navbar-default .navbar-nav>.open>a,
 .header-nightsky .navbar-default .navbar-nav>.open>a:focus,
 .header-nightsky .navbar-default .navbar-nav>.open>a:hover {
@@ -168,7 +154,6 @@ body{
     }
 }
 
-
 .footer{
    
     color: #fff!important;
@@ -198,15 +183,23 @@ body{
     float: left;
     clear: both;
 }
-.gine-bayrak{
+.gine-table {
 
     text-align: center;
     float: right;
     clear: both;
+  
+ 
    
 }
-.gine-bayrak th , span{
+ .gine-table th , span{
     font-weight: bold;
+}
+
+.gine-table th , .gine-table td,
+.mesaj-table th , .mesaj-table td
+{
+    border: 1px solid black;
     text-align: center;
 }
 
@@ -227,19 +220,24 @@ text-align: center;
     clear: both;
 }
 
-.mesaj-table{
+.mesaj-table td{ 
     width: 800px;
-    height: 300px;
+    height: 150px;
     text-align: center;
 }
 
-#mesaj-box{
+#mesaj-box, .mesaj-table th{
     width: 300px;
     text-align: center;
     color: white;
+    background-color: rgb(32, 11, 11);
 }
 .mesaj-bilgi{
     font-weight: bold; 
     font-size: 18px;
     text-decoration: underline;
+}
+
+iframe{
+    border: 0;
 }
