@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
      <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Css -->
     <link rel="stylesheet" type="text/css" href="stiller/css/style.css">
@@ -32,8 +32,12 @@
             background-position: top;
             padding-bottom: 100px; 
         }
-
-
+        img{
+            width: 45%;
+            height: auto;
+        }
+       
+        
     </style>
 </head>
 
@@ -56,11 +60,11 @@
                     <ul class="nav navbar-nav navbar-right">
                        <li><a href="index.html" title="Anasayfa">Anasayfa</a></li> 
                         <li><a href="ozgecmis.html" title="CV">Özgeçmiş</a></li>
-                        <li><a href="#" title="Gine'nin başkenti">Gine</a></li>
+                        <li><a href="#" title="Gine">Gine</a></li>
                         <li><a href="mirasimiz.html" title="Mirasımız">Mirasımız</a></li>
                         <li><a href="iletisim.html" title="İletişim">İletişim</a></li>
                         <li class="nav-item">
-                            <a href="login.php" class="nav-link active  text-white">
+                            <a href="login.html" class="nav-link active  text-white">
                               <i class="fas fa-sign-in-alt"></i>
                               </a>
                         </li>	
@@ -77,7 +81,7 @@
     </div>
 
    
-    <table class="gine-table" >
+    <table class="gine-table table-responsive " >
 
         <thead>
             <tr>
@@ -126,41 +130,27 @@
 
     </table>
 
-        <div style="float: left;">
+        <div class="konular" >
             <ul >
-        
-                <li> <a href="#gine">Gine</a> </li>
-            
-                <li><a href="#dil">Dil</a> </li>
-            
-                <li> <a href="#din">Din</a>  </li>
-            
-                <li>  <a href="#nufus">Nüfus</a></li>
-            
-                <li> <a href="#yemek">Gine Yemek Kültürü</a> </li>
-            
-                <li> <a href="#baskent">Başkent Konakri</a></li>
-                <li> <a href="#hava">Hava Durumu</a></li>
-            
-                <li> <a href="#gezilecek"> Gezileyeck yerler</a></li>
-                <li> <a href="#oteller">Oteller</a> </li>
-                <li> <a href="#myCarousel">Slider</a> </li>
+                <li> <a href="#gezilecek" id="kirmizi"> Gezileyeck yerler</a></li>
+                <li> <a href="#oteller" id="sari">Oteller</a> </li>
+                <li> <a href="#myCarousel" id="yesil">Slider</a> </li>
             </ul>
         </div>
               
 
-
-    <p style="float: left; clear: both;">
-        <a href="stiller/img/conakry-capital.jpg" target="_blank">
-            <img src="stiller/img/mini/conakry-capital-mini.jpg" alt="Konakri fotografı" title="Başkent Konakri">
-        </a>
-        <br>
-        <a href="stiller/img/Conakry-view.jpg" target="_blank">
-            <img src="stiller/img/mini/Conakry-view-mini.jpg" alt="Konakri fotografı" title="Başkent Konakri">
-        </a>
-    </p>
-
-    <figure id="fotogralar"> 
+    <figure class="fotograflar"> 
+       
+        <p>
+            <a href="stiller/img/conakry-capital.jpg" target="_blank"  >
+                <img src="stiller/img/mini/conakry-capital-mini.jpg" alt="Konakri fotografı" title="Başkent Konakri"  >
+            </a>
+            <br>
+            <a href="stiller/img/Conakry-view.jpg" target="_blank">
+                <img src="stiller/img/mini/Conakry-view-mini.jpg" alt="Konakri fotografı" title="Başkent Konakri">
+            </a>
+        </p>
+        
         <p>
             <a href="stiller/img/africa.jpg" target="_blank">
                 <img src="stiller/img/mini/africa-mini.jpg" alt="Afria haritası" title="Afria haritası">
@@ -169,8 +159,9 @@
                 <img src="stiller/img/mini/Gine-haritası.jpg" alt="Gine haritası" title="Gine haritası">
             </a> 
         </p> 
-            <figcaption> Fotoğrafları büyütmek için tıklayın.</figcaption>   
+           
     </figure>
+    
 
         
     <div class="container">
@@ -199,41 +190,14 @@
             Gine genç bir nüfusa sahip olup, 2018 tahmini verilerine göre nüfusun %60,63'ü 0-24 yaş aralığındadır. Ülkenin sadece %3,85'i 65 yaş ve üzerindedi.
         </p>
 
-        <h3>Tarım</h3>
-        <p>
-            Tarım sektörü, ülkenin istihdam edilebilir nüfusunun% 75'inden fazlasını (GSYİH'nin% 24'ü) istihdam etmektedir. Pirinç, kahve, ananas, şeftali, nektarin, mango, turunçgiller, tapyoka, muz, patates, domates, salatalık, biber ve diğerleri yetiştirilmektedir.
-            <br>
-            Gine, yükselen bölgesel elma ve armut üreticilerinden biridir. Üzüm, nar, hurma ağacı birçok ekimi var. Son birkaç yıl, dikey hidroponik sisteme dayalı çilek tarlalarının gelişmesiyle işaretlendi.
-        </p>   
-
-        <figure>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/mR56Rf3Z8i4" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <figcaption>Tarım hakkında</figcaption>
-        </figure>
-
-        <h3>Üreme</h3>
-        <p>
-            Gine'de hayvancılık kırsal sektörde tarımdan sonra ikinci faaliyet olmaya devam ediyor. 2000 yılında tespit edilen 283.000 yetiştirici ve 2016 yılında sahip olunan sayılarının 6,759,000 sığır, 2,380,000 koyun, 2,851,000 keçi, 130,000 domuz ve 30,000,000 kümes hayvanı olduğu tahmin edilen aileleri ile ilgilidir.
-        </p>
-       
-        <figure>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/4pCtwr2DhJA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <figcaption>Üreme hakkında</figcaption>
-        </figure>
-     
-        <h4 id="yemek">Gine Yemek Kültürü</h4>
-        <p> 
-            Gine’nin yemek kültürü ülkenin büyük çoğunluğunun Müslüman olması ve bölgesel birçok etkiden etkilenmektedir. Birçok batı ülkesinde yoğun bir şekilde görüldüğü üzere Fufu adlı yiyecek önemli bir yer tutar. Ülkenin hemen her köşesinde tüketilmektedir. Manyok ve pişirilen muz ile beraber patatesin karşımı ile elde edilen katı püre için geleneksel ürünleri olarak kabul edilebilir. Hemen her yemeğin yanında bu katı püre şeklindeki karışım tüketilir. Kırsal bölgelerde aileler tek tabaktan el ile yemeklerini tüketme alışkanlıklarına sahiptirler. Ayrıca ülkenin konumu ve coğrafyası nedeniyle ülkede yoğun oranda kakao ve kahve tarım yapılmakta, dünyanın dört bir yanına bu ürünler gönderilmektedir. Bu ürünler geleneksel olarak üretilen ve her mutfakta karşılığı olan ürünler arasında yer almaktadır.
-        </p>
-
        <br> <hr>
 
        <h2 id="baskent"> Başkent Konakri (Conakry), </h2> 
 
-       <div class="miramiz-videosu"> 
-            <figure>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ssA3SXC8QLU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </figure>
+
+        
+         <div class="embed-responsive embed-responsive-16by9" >
+            <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/ssA3SXC8QLU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
         </div>
 
         <p>
@@ -249,10 +213,9 @@
       
         <h3 id="gezilecek"> Gine'de bazı Gezileyeck yerler</h3>
 
-        <div class="miramiz-videosu"> 
-            <figure>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/R00YSeoVnHQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </figure>
+       
+        <div class="embed-responsive embed-responsive-16by9" >
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R00YSeoVnHQ" allowfullscreen> </iframe>
         </div>
         
             
@@ -342,18 +305,17 @@
                 </tr>
               
                 <tr>
-                  
                     <td>
-                        
-                        <img src= "stiller/img/hotel-de-kaloum.png" alt="Primus hotel Kaloum" title="Primus hotel Kaloum ">
-                        
-                        <iframe width="560" height="393" src="https://www.youtube.com/embed/d49xx4NexjI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float: right;"></iframe>
-                                        
+                        <img src= "stiller/img/hotel-de-kaloum.png" alt="Primus hotel Kaloum" title="Primus hotel Kaloum ">   
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/d49xx4NexjI" ></iframe>
+                        </div>
                     </td>
                 </tr>         
-            
+
             </table>    
-               
+         
+            
             <br><br><br><br><br><hr>
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -415,13 +377,13 @@
 
     <footer class="footer">
 
-        <address> SAÜ Web-Teknolojileri-Projesi © Seidy KANTE 2021 </address> 
+        <address> SAÜ Web-Teknolojileri-Projesi &copy; Seidy KANTE 2021 </address>  
 
     </footer>
    
     <!-- BOOTSTRAP -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
