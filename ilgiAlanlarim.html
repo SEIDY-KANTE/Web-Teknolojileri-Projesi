@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    
+    <meta charset="utf-8">
+    
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Css genel ve ilgi alana ait stiller -->
+    <link rel="stylesheet" type="text/css" href="stiller/css/style.css">  
+    <link rel="stylesheet" href="stiller/css/ilgiAlanimStiller.css">
+
+    <!-- Ikon Kutuphanesi -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <link rel="icon" type="image/x-icon" href="stiller/img/Logo-ikon.ico" />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <title>Web Teknolojileri Projesi</title>
+   
+</head>
+<body>
+   
+    <div class="header-nightsky">
+
+        <nav class="navbar navbar-defaul ">
+            <div class="container">
+
+                <a class="navbar-brand" href="index.html" style="padding-top: 0%;"><img src="stiller/img/Logo.png"
+                        alt="Fotoğrafım" id="fotoLogo"></a>
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="index.html" title="Anasayfa">Anasayfa</a></li>
+                        <li><a href="ozgecmis.html" title="CV">Özgeçmiş</a></li>
+                        <li><a href="gine.html" title="Gine">Gine</a></li>
+                        <li><a href="mirasimiz.html" title="Mirasımız">Mirasımız</a></li>
+                        <li><a href="iletisim.html" title="İletişim">İletişim</a></li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link active  text-white">
+                                <i class="fas fa-sign-in-alt"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero" >
+            <h1>İlgi alanlarım</h1>
+        </div>
+    </div>
+      
+    <header>
+        <form  id="form">
+            <input type="text" placeholder="Search" id="search" class="search">
+        </form>
+    </header>
+        
+    <div id="tags"></div>
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content" id="overlay-content"></div>
+        
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a> 
+        
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
+
+    </div>
+    <main id="main"></main>
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+
+    </div>
+    <script src="script.js"></script>
+
+        <br><br><br> <hr>
+    
+    <footer class="footer" >
+
+        <address> SAÜ Web-Teknolojileri-Projesi &copy; Seidy KANTE 2021 </address>
+
+    </footer>
+   
+    <!-- BOOTSTRAP -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
